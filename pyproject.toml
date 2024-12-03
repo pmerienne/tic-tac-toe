@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "tic_tac_toe"
+version = "0.0.1"
+description = ""
+authors = ["Pierre Merienne"]
+readme = "README.md"
+packages = [{ include = "tic_tac_toe" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
