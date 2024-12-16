@@ -10,7 +10,7 @@ columns = {
 def validate_move(move):
     if len(move) != 2:
         raise ValueError("Move must be two characters (column and row)")
-    col, row = list(move)
+    col, row = move
     if col not in columns.keys():
         raise ValueError(f"Invalid column: {col}")
     try:
